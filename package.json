@@ -1,7 +1,7 @@
 {
   "name": "proofit",
-  "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "author": "Markus Schüttengruber <markus@maglo.at>",
   "scripts": {
     "dev": "vite",
     "deploy:local": "yarn compile && npx hardhat run scripts/deploy.js --network localhost",
