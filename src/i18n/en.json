@@ -1,0 +1,157 @@
+{
+  "appName": "ProofIt!",
+  "navbar": {
+    "assets": "Assets",
+    "verify": "Verify",
+    "install": "Install Metamask"
+  },
+  "install": {
+    "title": "Could not detect metamask",
+    "description": "To use ProofIt! you need to install Metamask first. Click the button below and follow the instructions to install it.",
+    "button": "Install Metamask"
+  },
+  "assets": {
+    "no_assets": "Sorry! You do not own any assets yet. Click the \"Create asset\" button to create a new asset!",
+    "text": "Your assets",
+    "btnText": "Create asset",
+    "additionalPropsText": "additionally identified by {0}",
+    "fileInput": "Select File",
+    "create": {
+      "descriptionLabel": "Main image",
+      "overview": "Back to overview",
+      "headline": "Create a new asset",
+      "submitLabel": "Create",
+      "nameLabel": "Name",
+      "newPropHeadline": "Add new property",
+      "newPropSubmitLabel": "Add",
+      "radioLabel": "Property type",
+      "radio": {
+        "file": "File",
+        "text": "Text",
+        "longtext": "Long Text"
+      },
+      "otherProperties": "Other properties",
+      "uploadModal": {
+        "content": "Uploading..."
+      },
+      "states": {
+        "upload": "Uploading to IPFS",
+        "waiting": "Waiting for confirmation",
+        "error": "Oh no something went wrong!",
+        "mine": "Waiting until transaction is mined!"
+      },
+      "errorModal": {
+        "filebaseError": "Could not comminucate with Filebase. Please try again later.",
+        "assetExists": "Could not create new asset. Asset with this data already exists!",
+        "unknownError": "Could not create asset. Unkown error occured. Please try again later!",
+        "title": "Oh no! Something went wrong..",
+        "buttonLabel": "OK",
+        "errFormat": "Could not create asset: {0} [-> Error Code: {1}]"
+      },
+      "successModal": {
+        "title": "Yeah! Asset successfully created!",
+        "content": "It can take several minutes until your asset is visible in the list as the transaction is processed.",
+        "buttonLabel": "OK",
+        "labels": {
+          "transactionHash": "Transaction Hash",
+          "blockNumber": "Block Number",
+          "gasPrice": "Estimated Gas Price",
+          "pinSize": "Pin Size",
+          "timestamp": "Timestamp of pin"
+        }
+      },
+      "acceptModal": {
+        "title": "Are you sure?",
+        "content": "Are you sure you want to create this asset?<br/>This action cannot be undone.<br/>After clicking OK a MetaMask popup should appear where you have to accept the transaction again!",
+        "labels": {
+          "ok": "Go!",
+          "cancel": "close"
+        }
+      },
+      "stepper": {
+        "first-step": "Enter Name",
+        "second-step": "Upload Image",
+        "third-step": "Add New Property",
+        "prev": "Prev",
+        "next": "Next"
+      }
+    },
+    "detail": {
+      "errGeneric": "Could not load asset. Please try again later.",
+      "imgHeadline": "Main Image",
+      "additionalProps": "Additional information about asset",
+      "ownedBy": "Owned by",
+      "loading": "Loading.. please wait",
+      "error": "Error",
+      "showVerificationBtnLabel": "Show verification QR"
+    },
+    "history": {
+      "btnLabel": "Show ownership history",
+      "closeBtnLabel": "Close",
+      "headline": "Ownership history",
+      "table": {
+        "owner": "Owner",
+        "blockTimestamp": "Transferred at (Block Timestamp)",
+        "verifiedFor": "Verified for"
+      }
+    },
+    "verification": {
+      "verifyBtnLabel": "Create verification",
+      "btnLabel": "Create Verification",
+      "closeBtnLabel": "Close",
+      "headline": "Create Verification",
+      "states": {
+        "confirm": "Waiting for you to confirm the transaction in metamask",
+        "mine": "Waiting until block is mined..",
+        "save": "Success! Verification created.",
+        "error": "Oh no something went wrong!"
+      }
+    },
+    "transferOwnership": {
+      "btnLabel": "Transfer ownership",
+      "closeBtnLabel": "Close",
+      "transferBtnLabel": "Transfer",
+      "headline": "Transfer ownership",
+      "inputPlaceholder": "Type address here..",
+      "states": {
+        "confirm": "Waiting for you to confirm the transaction in metamask",
+        "mine": "Waiting until block is mined..",
+        "save": "Success! Ownership has been transfered.",
+        "error": "Oh no something went wrong!"
+      }
+    },
+    "verificationQR": {
+      "closeBtnLabel": "Close",
+      "title": "Verification QR",
+      "explanation": "Show this QR Code to someone else to proof ownership of this asset."
+    }
+  },
+  "qr": {
+    "headline": "Scan QR Code",
+    "text": "Please scan the QR code provided by the other party",
+    "scanPrefix": "Scanned: ",
+    "orLabel": "or upload"
+  },
+  "verify": {
+    "title": "Do not trust. Verify!",
+    "btnLabel": "Verify!",
+    "scanAgain": "Scan another",
+    "initCamera": "Initializing camera.. please wait!",
+    "fileUpload": {
+      "waiting": "Detected File Upload.. decoding QR-Code",
+      "error": "Something went wrong while trying to decode QR-Code. Did you upload the correct QR-Code? Please try again later!"
+    },
+    "table": {
+      "owner": "Owner",
+      "asset": "Asset",
+      "assetLink": "Details",
+      "linkLabel": "Details"
+    },
+    "texts": {
+      "secure": "Ownership verified! User also created a verification for your address! This signature can be trusted! Make sure to double check the assetID",
+      "warn": "Ownership verified! User did not create a verification for your address. Please ask the user to create a verification for you to be 100% safe!",
+      "error": "Could not verify ownership. This QR Code should NOT be trusted be careful - possible FRAUD detected"
+    }
+  },
+  "test": "moin"
+}
